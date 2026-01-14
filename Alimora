@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alimora</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#0b1220; color:#e5e7eb; line-height:1.6; }
+    header { padding:60px 20px; text-align:center; background:linear-gradient(135deg,#16a34a,#22c55e); color:#052e16; }
+    header h1 { font-size:3rem; margin-bottom:10px; }
+    nav { display:flex; justify-content:center; gap:20px; background:#020617; padding:14px; position:sticky; top:0; }
+    nav a { color:#e5e7eb; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#22c55e; }
+    section { max-width:1100px; margin:60px auto; padding:0 20px; }
+    .card { background:#020617; border-radius:16px; padding:28px; margin-bottom:30px; box-shadow:0 10px 30px rgba(0,0,0,0.4); }
+    h2 { color:#22c55e; }
+    footer { background:#020617; text-align:center; padding:30px; color:#9ca3af; }
+    ul { margin-left:20px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:20px; }
+    .tag { background:#052e16; color:#bbf7d0; padding:10px; border-radius:10px; text-align:center; font-weight:bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alimora</h1>
+  <p>A zero-waste circular city of the future</p>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#problem">Problem</a>
+  <a href="#solution">Solutions</a>
+  <a href="#engineering">Engineering</a>
+  <a href="#graphics">Graphics</a>
+</nav>
+
+<section id="overview" class="card">
+  <h2>City Overview</h2>
+  <p>On the southern coast of Brazil, surrounded by lush green mountains, sandy beaches, and turquoise waters, lies the city of Alimora. Founded in 2125, Alimora supports two million citizens through a zero-waste circular economy and an exceptional quality of life.</p>
+  <p>Residents live in Florimoras — communities made of six Bloom towers surrounding a central STEM tower. These structures integrate housing, farming, manufacturing, healthcare, and recreation to ensure accessibility, sustainability, and inclusivity for all.</p>
+</section>
+
+<section id="problem" class="card">
+  <h2>Defined Problem</h2>
+  <p>Before Alimora, southern Brazil faced severe food waste and inefficient waste management. Over 4,800 tons of food were wasted daily, polluting waterways and increasing food insecurity.</p>
+</section>
+
+<section id="solution" class="card">
+  <h2>Overview of the Solution</h2>
+  <p>Alimora eliminates food waste by integrating farming directly into residential towers. Hydroponic-Aeroponic Integrated Life Systems (HAILS) grow food efficiently, while anaerobic digestion converts waste into energy and fertilizer, creating a fully circular system.</p>
+
+  <h3>Solution 1: Florimoras & Vertical Farming</h3>
+  <p>Each Florimora contains six Blooms and one STEM tower. CRISPR-engineered crops, automated robotics, and Nutriwatch-guided food distribution ensure efficient, personalized nutrition with zero waste.</p>
+
+  <h3>Solution 2: Waste-to-Energy Systems</h3>
+  <p>AI-guided waste separation feeds Digestion, After-treatment, and Pyrolysis (DAP) facilities. Methane is converted into hydrogen and carbon, powering Solid Oxide Fuel Cells (SOFCs) paired with thermophotovoltaics for up to 80% efficiency.</p>
+</section>
+
+<section id="engineering" class="card">
+  <h2>Engineering Roles & Risks</h2>
+  <p>Bioengineers, mechanical engineers, chemical engineers, and agricultural engineers collaborate to manage risks such as methane leaks, energy demand, and crop diversity limitations. Continuous monitoring, closed-loop systems, and optimized energy cycles ensure long-term reliability.</p>
+</section>
+
+<section id="graphics" class="card">
+  <h2>Graphics & Labels</h2>
+
+  <h3>Anaerobic Digestion (9 labels)</h3>
+  <div class="grid">
+    <div class="tag">Organic Waste</div>
+    <div class="tag">Hydrolysis</div>
+    <div class="tag">Acidogenesis</div>
+    <div class="tag">Acetogenesis</div>
+    <div class="tag">Methanogenesis</div>
+    <div class="tag">Biogas</div>
+    <div class="tag">Digestate</div>
+    <div class="tag">Hydrogen</div>
+    <div class="tag">Carbon Output</div>
+  </div>
+
+  <h3>Florimora Graphic (7 labels)</h3>
+  <div class="grid">
+    <div class="tag">STEM Tower</div>
+    <div class="tag">Bloom Towers</div>
+    <div class="tag">Vertical Farms</div>
+    <div class="tag">Residential Core</div>
+    <div class="tag">Waste Network</div>
+    <div class="tag">Energy Systems</div>
+    <div class="tag">Community Services</div>
+  </div>
+
+  <h3>Bloom Graphic (4 labels)</h3>
+  <div class="grid">
+    <div class="tag">Housing Core</div>
+    <div class="tag">Cantilever Farms</div>
+    <div class="tag">HAILS Racks</div>
+    <div class="tag">Subterranean Utilities</div>
+  </div>
+
+  <h3>Logo</h3>
+  <p><strong>Alimora</strong> — a symbol of circular living, sustainability, and innovation.</p>
+</section>
+
+<footer>
+  <p>© 2125–2026 Alimora • Circular City of the Future</p>
+</footer>
+
+</body>
+</html>
